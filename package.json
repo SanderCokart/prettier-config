@@ -1,0 +1,36 @@
+{
+  "name": "@sandercokart/prettier-config",
+  "version": "1.0.0",
+  "private": false,
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanderCokart/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanderCokart/prettier-config/issues"
+  },
+  "description": "Opinionated Prettier config from Sander Cokart",
+  "main": "prettier.config.js",
+  "keywords": [
+    "prettier",
+    "config",
+    "opinionated"
+  ],
+  "author": "Sander Cokart",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.2"
+  },
+  "packageManager": "pnpm@8.6.12",
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
