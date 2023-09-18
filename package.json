@@ -1,6 +1,6 @@
 {
   "name": "@sandercokart/prettier-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": false,
   "type": "commonjs",
   "repository": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/SanderCokart/prettier-config/issues"
   },
   "description": "Opinionated Prettier config from Sander Cokart",
-  "main": "prettier.config.js",
+  "main": ".prettierrc.json",
   "keywords": [
     "prettier",
     "config",
